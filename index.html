@@ -7,6 +7,7 @@
     <meta name="author" content="TechNova Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
 
     <title>TechNova Solutions</title>
 </head>
@@ -58,109 +59,26 @@
                 <h2>
                     Na Technova Solutions oferecemos uma variedade de serviços tecnológicos inovadores.
                 </h2>
-                <div class="cards">
-
-                
-                <!--Card 1-->
-                <div class="card">
-                    <header class="card-header">
-                        <h3>Desenvolvimento de Software Sob Medida</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - um computador ou código ponte-->
-                        <p>
-                            Criamos soluções personalizadas que atendem às necessidades específicas do seu negócio, com automação e integração.
-                        </p>
-                        <button>Saiba Mais</button>
+                <div class="cards"></div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">Slide 1</div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      ...
                     </div>
-                </div>
-
-                 <!--Card 2-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>Consultoria em Transformação Digital</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - Um gráfico de progresso ou engrenagens-->
-                        <p>
-                            Auxiliamos sua empresa na jornada de digitalização, otimizando processos e maximizando a eficiência.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-
-                 <!--Card 3-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>
-                            Soluções de Nuvem e Armazenamento
-                        </h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - Uma nuvem com cadeado ou símbolo de segurança-->
-                        <p>
-                            Oferecemos hospedagem em nuvem segura e acessível, com backups automatizados e soluções escaláveis.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-
-                 <!--Card 4-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>Desenvolvimento de Aplicações Móveis</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo -  Um smartphone ou ícones de aplicativos.-->
-                        <p>
-                            Criamos aplicativos móveis com UX intuitiva e integração completa com seus sistemas.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-
-                 <!--Card 5-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>Análise de Dados e Inteligência Artificial</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - Um gráfico de dados ou um cérebro de IA-->
-                        <p>
-                            Maximize suas decisões com análise avançada de dados e integração de Inteligência Artificial.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-
-                 <!--Card 6-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>Internet das Coisas (IoT)</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - Dispositivos conectados-->
-                        <p>
-                            Implementamos soluções IoT para automatizar e monitorar suas operações em tempo real.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-
-                 <!--Card 7-->
-                 <div class="card">
-                    <header class="card-header">
-                        <h3>Segurança Cibernética</h3>
-                    </header>
-                    <div class="card-body">
-                        <!--Imagem de fundo - Um escudo ou um cadeado digital.-->
-                        <p>
-                            Protegemos seus dados contra ameaças cibernéticas com monitoramento 24/7 e tecnologias de ponta.
-                        </p>
-                        <button>Saiba Mais</button>
-                    </div>
-                </div>
-            </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                  </div>
         </section>
 
         <section id="depoimentos">
@@ -215,6 +133,7 @@
         </div>
     </footer>
         
-
+    <script src="carousel.js" type="module"></script>
+<script src="node_modules/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
