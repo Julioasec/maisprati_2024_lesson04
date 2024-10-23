@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header div.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem;
+    border: 1px solid red;
+
+}
+
+header div.header-container div.header-brand{
+    margin:  0 1rem 1rem;
+    position: relative;
+    left: 10rem;
+}
+#brand{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+nav ul.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+nav ul.nav-list li.nav-item{
+    
+}
+
+main{
+    margin: 0 7rem;
+}
+
+section#sobre{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+section#sobre div.titulo{
+
+}
+section#sobre h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+section#sobre div.descricao{
+    display: flex;
+    gap: 5rem;
+}
+
+section#sobre div.descricao div.descricao-texto{
+    width: 80%;
+}
+section#sobre img{
+    width: 100%;
+    height: 80%;
+}
