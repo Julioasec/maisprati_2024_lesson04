@@ -88,23 +88,32 @@
         <section id="contato">
             <!--Fale conosco-->
             <h2>Entre em contato para mais informações.</h2>
-            <form action="">
-                <label for="name">Seu nome</label>
-                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            
+            <div class="form">            
+                <form action="">
+                    <div class="form-group">
+                        <label class="label-form" for="name">Seu nome</label>
+                        <input class="input-form" type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                    </div>
 
-                <label for="email">Seu email</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    <div class="form-group">
+                        <label class="label-form" for="email">Seu email</label>
+                        <input class="input-form" type="email" name="email" id="email" placeholder="Digite seu email" required>
+                    </div>
                 
-                <label for="tel">Seu telefone</label>
-                <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone">
+                    <div class="form-group">
+                        <label class="label-form" for="tel">Seu telefone</label>
+                        <input class="input-form" type="tel" name="tel" id="tel" placeholder="Digite seu telefone">
+                    </div>
 
-                <label for="message">Sua mensagem</label>
-                <textarea name="message" id="message" placeholder="Digite sua mensagem" required style="resize: none;"></textarea>
+                    <div class="form-group">
+                        <label class="label-form" for="message">Sua mensagem</label>
+                        <textarea class="input-form" name="message" id="message" placeholder="Digite sua mensagem" required style="resize: none;"></textarea>
+                    </div>
                 
-                <button type="submit">Enviar</button>
-                
-            </form>
-
+                    <button class="button-form" type="submit" onclick="e.preventDefault()">Enviar</button>    
+                </form>
+            </div>
 
         </section>
 
